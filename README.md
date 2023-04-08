@@ -20,7 +20,7 @@
 
   ## License 🔓
   
-  * ZThiCreative Commons Zero v1.0 Universal
+  * Creative Commons Zero v1.0 Universal
 
   ## Contributors 🏆
   
