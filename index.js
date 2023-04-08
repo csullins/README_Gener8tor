@@ -9,30 +9,30 @@ const generateREADME = ({ title, description, installation, usage, license, cred
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [Credits](#contributors)
+  - [Contributors](#contributors)
   - [Tests](#tests)
   - [Demo](#demo)
-  - [Questions?](#questions)
+  - [Questions](#questions)
   
   ## Installation 🔧
   
-  * ${installation}
+  ${installation}
   
   ## Usage 💡
 
-  * ${usage}
+  ${usage}
 
   ## License 🔓
   
-  * ${license}
+  This application is covered under the ${license}.
 
   ## Contributors 🏆
   
-  * ${credits}
+  ${credits}
   
   ## Tests 🔬
 
-  * ${tests}
+  ${tests}
 
   ## Questions❓
 
@@ -66,7 +66,7 @@ inquirer
         type: 'list',
         name: 'license',
         message: 'Add the license used, if any.',
-        choices: ['Apache License 2.0', 'MIT License', 'Mozilla Public License 2.0', 'GNU General Public License v3.0', 'Creative Commons Zero v1.0 Universal'],
+        choices: ['Apache License 2.0', 'MIT License', 'Mozilla Public License 2.0', 'GNU General Public License v3.0', 'Creative Commons Zero v1.0 Universal License'],
       },
       {
         type: 'input',
