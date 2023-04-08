@@ -24,7 +24,7 @@ const generateREADME = ({ title, description, installation, usage, license, cred
 
   ## License 🔓
   
-  * ZThi${license}
+  * ${license}
 
   ## Contributors 🏆
   
