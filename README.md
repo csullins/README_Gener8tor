@@ -5,10 +5,10 @@
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [Credits](#contributors)
+  - [Contributors](#contributors)
   - [Tests](#tests)
   - [Demo](#demo)
-  - [Questions?](#questions)
+  - [Questions](#questions)
   
   ## Installation 🔧
   
