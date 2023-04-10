@@ -10,21 +10,21 @@
   - [Demo](#demo)
   - [Questions](#questions)
   
-  ## Installation 🔧
+  ## Installation 
   
-  To install, 1. Clone the repo 2. Open the index.js file using 'node' in your terminal. 3. Answers the prompts to begin filling out the details of your README.
+  🔧 To install, 1. Clone the repo 2. Open the index.js file using 'node' in your terminal. 3. Answers the prompts to begin filling out the details of your README.
   
-  ## Usage 💡
+  ## Usage 
 
-  This app can be used by any developer needing a quick way to write out their README without needing to add any of the structural     or design elements.      It can be used as many times as the user needs.
+  💡 This app can be used by any developer needing a quick way to write out their README without needing to add any of the structural     or design elements.      It can be used as many times as the user needs.
 
-  ## License 🔓
+  ## License
   
-  Creative Commons Zero v1.0 Universal
+   🔓 Creative Commons Zero v1.0 Universal
 
-  ## Contributors 🏆
+  ## Contributors 
   
-  While I coded this app on my own, it would not have been possible without the help of my bootcamp class notes and past student activites!
+  🏆 While I coded this app on my own, it would not have been possible without the help of my bootcamp class notes and past student activites!
   
   ## Tests 🔬
 
