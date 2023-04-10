@@ -30,9 +30,9 @@ const generateREADME = ({ title, description, installation, usage, license, cred
   
   🔧 ${installation}
   
-  ## Usage 💡
+  ## Usage 
 
-  ${usage}
+  💡 ${usage}
 
   ## License
   
@@ -48,7 +48,7 @@ const generateREADME = ({ title, description, installation, usage, license, cred
 
   ## Questions❓
 
-  * Visit my Github repo at github.com/${github}
+  * Visit my Github repo at https://www.github.com/${github}
   * Or email me at ${email}
   `;
 
