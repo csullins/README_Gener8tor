@@ -9,7 +9,7 @@ const licensePhotos = {
   'Creative Commons Zero v1.0 Universal License': 'cc.png'
 };
 
-const generateREADME = ({ title, description, installation, usage, license, credits, tests, github, email, photo }) =>
+const generateREADME = ({ title, description, installation, usage, license, credits, tests, github, email }) =>
   `# ${title}
      ${description}
   
