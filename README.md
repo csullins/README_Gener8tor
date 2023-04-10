@@ -36,6 +36,6 @@
   * Or email me at placeholder@email.com (demo purposes).
 
   ## Demo
-  ![demo](./assets/${photo})
+  ![demo](./assets/demo.gif)
   
   
