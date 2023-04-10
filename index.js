@@ -23,37 +23,33 @@ const generateREADME = ({ title, description, installation, usage, license, cred
   - [Questions](#questions)
 
   ${license}
-  
+
   ![license](./assets/${licensePhotos[license]})
 
-  ## Installation 🔧
+  ## Installation 
   
-  ${installation}
+  🔧 ${installation}
   
   ## Usage 💡
 
   ${usage}
 
-  ## License 🔓
+  ## License
   
-  This application is covered under the ${license}.
+  🔓 This application is covered under the ${license}.
 
-  ## Contributors 🏆
+  ## Contributors
   
-  ${credits}
+  🏆 ${credits}
   
-  ## Tests 🔬
+  ## Tests 
 
-  ${tests}
+  🔬 ${tests}
 
   ## Questions❓
 
   * Visit my Github repo at github.com/${github}
   * Or email me at ${email}
-  
-  ## Demo
-
-  ![demo]
   `;
 
 inquirer
