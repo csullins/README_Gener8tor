@@ -23,6 +23,8 @@ const generateREADME = ({ title, description, installation, usage, license, cred
   - [Questions](#questions)
 
   ${license}
+  
+  ![license](./assets/${licensePhotos[license]})
 
   ## Installation 🔧
   
@@ -51,7 +53,7 @@ const generateREADME = ({ title, description, installation, usage, license, cred
   
   ## Demo
 
-  ![demo](./assets/${licensePhotos[license]})
+  ![demo]
   `;
 
 inquirer

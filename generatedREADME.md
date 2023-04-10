@@ -1,5 +1,5 @@
-# REally Cool title
-     this project creates a file generator app
+# Awesome README Generator
+     This app generates a README based upon user's input to carious section questions in order to make generating a README easier for devs.
   
   ## 📘 Table of contents
   - [Installation](#installation)
@@ -10,34 +10,36 @@
   - [Demo](#demo)
   - [Questions](#questions)
 
-  GNU General Public License v3.0
+  Mozilla Public License 2.0
+  
+  ![license](./assets/mozilla.png)
 
   ## Installation 🔧
   
-  Clone the repo, then run node index.js
+  First clone the repo, then run node index.js to run the app.
   
   ## Usage 💡
 
-  Can be used by any dev looking to create a file
+  This project might be used by any dev looking to make the README ceration process quicker and more consistent.
 
   ## License 🔓
   
-  This application is covered under the GNU General Public License v3.0.
+  This application is covered under the Mozilla Public License 2.0.
 
   ## Contributors 🏆
   
-  no collab
+  No collaborators used other than the help of bootcamp notes and student activities!
   
   ## Tests 🔬
 
-  more details soon
+  More info on running testing coming soon.
 
   ## Questions❓
 
   * Visit my Github repo at github.com/csullins
-  * Or email me at email@emial.com
+  * Or email me at email@email.com
   
   ## Demo
 
-  ![demo](./assets/gnu.png)
+  ![demo]
   
