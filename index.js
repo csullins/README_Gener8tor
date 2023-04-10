@@ -1,9 +1,17 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const generateREADME = ({ title, description, installation, usage, license, credits, tests, github, email }) =>
+const licensePhotos = {
+  'Apache License 2.0': 'apache.png',
+  'MIT License': 'mit.png',
+  'Mozilla Public License 2.0': 'mozilla.png',
+  'GNU General Public License v3.0': 'gnu.png',
+  'Creative Commons Zero v1.0 Universal License': 'cc.png'
+};
+
+const generateREADME = ({ title, description, installation, usage, license, credits, tests, github, email, photo }) =>
   `# ${title}
-  * ${description}
+     ${description}
   
   ## 📘 Table of contents
   - [Installation](#installation)
@@ -13,7 +21,9 @@ const generateREADME = ({ title, description, installation, usage, license, cred
   - [Tests](#tests)
   - [Demo](#demo)
   - [Questions](#questions)
-  
+
+  ${license}
+
   ## Installation 🔧
   
   ${installation}
@@ -38,6 +48,10 @@ const generateREADME = ({ title, description, installation, usage, license, cred
 
   * Visit my Github repo at github.com/${github}
   * Or email me at ${email}
+  
+  ## Demo
+
+  ![demo](./assets/${licensePhotos[license]})
   `;
 
 inquirer
@@ -90,20 +104,10 @@ inquirer
       },
   ])
    .then((data) => {
-    const readmeData = generateREADME(data);
 
-// TODO: Create a function to write README file (JSON.stringify(data, null, '\t'),)
+      const readmeData = generateREADME(data);
+
     fs.writeFile('generatedREADME.md', readmeData, (err) =>
       err ? console.log(err) : console.log('Successfully created README.md!')
     );
   });
-
-
-// // TODO: Create an array of questions for user input
-// const questions = [];
-
-// TODO: Create a function to initialize app
-// function init() {}
-
-// Function call to initialize app
-// init();
