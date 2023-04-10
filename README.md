@@ -32,7 +32,7 @@
 
   ## Questions❓
 
-  * Visit my Github repo at github.com/csullins
+  * Visit my Github repo at https://www.github.com/csullins
   * Or email me at placeholder@email.com (demo purposes).
 
   ## Demo
